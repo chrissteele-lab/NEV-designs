@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-heavy-metal: #1E1E1C;
+  --color-meteor: #D27012;
+  --color-nobel: #B3B2B2;
+  --color-thunderbird: #BC3217;
+}
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+
+  .font-primary {
+    font-family: "Kanit", sans-serif;
+  }
+
+  .font-secondary {
+    font-family: "Inter", sans-serif;
+  }
+}
