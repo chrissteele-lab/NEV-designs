@@ -15,389 +15,6 @@
       "children": [
         {
           "type": "frame",
-          "id": "qaN8M",
-          "name": "HERO",
-          "metadata": {
-            "type": "unsplash",
-            "username": "nypl",
-            "link": "https://unsplash.com/@nypl",
-            "author": "The New York Public Library"
-          },
-          "clip": true,
-          "width": 1920,
-          "height": 1075,
-          "fill": [
-            {
-              "type": "image",
-              "enabled": true,
-              "url": "../images/nev-assets/Gemini_Generated_Image_3b67613b67613b67.png",
-              "mode": "fill"
-            },
-            "#000000b3",
-            {
-              "type": "gradient",
-              "gradientType": "linear",
-              "enabled": false,
-              "opacity": 0.6,
-              "rotation": 180,
-              "size": {
-                "height": 1
-              },
-              "colors": [
-                {
-                  "color": "#000000",
-                  "position": 0
-                },
-                {
-                  "color": "#00000000",
-                  "position": 0.4
-                }
-              ]
-            }
-          ],
-          "layout": "vertical",
-          "gap": 60,
-          "padding": [
-            40,
-            80
-          ],
-          "justifyContent": "space_between",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "frame",
-              "id": "Y8fib",
-              "name": "header",
-              "width": "fill_container",
-              "justifyContent": "space_between",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "HoSS3",
-                  "name": "logoImg",
-                  "width": 312,
-                  "height": 52,
-                  "fill": {
-                    "type": "image",
-                    "enabled": true,
-                    "url": "../images/nev-assets/logo.png",
-                    "mode": "fit"
-                  }
-                },
-                {
-                  "type": "frame",
-                  "id": "aaBHK",
-                  "name": "nav",
-                  "width": "fill_container",
-                  "gap": 50,
-                  "justifyContent": "end",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "nrZsG",
-                      "fill": "#FFFFFF",
-                      "content": "SERVICES",
-                      "fontFamily": "Kanit",
-                      "fontSize": 18,
-                      "fontWeight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "id": "vbtjH",
-                      "fill": "#FFFFFF",
-                      "content": "INDUSTRIES",
-                      "fontFamily": "Kanit",
-                      "fontSize": 18,
-                      "fontWeight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "id": "FWpw1",
-                      "fill": "#FFFFFF",
-                      "content": "PRODUCTS",
-                      "fontFamily": "Kanit",
-                      "fontSize": 18,
-                      "fontWeight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "id": "weqKh",
-                      "fill": "#FFFFFF",
-                      "content": "ABOUT",
-                      "fontFamily": "Kanit",
-                      "fontSize": 18,
-                      "fontWeight": "bold"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "wTqlB",
-                      "name": "roleSwatch2",
-                      "fill": {
-                        "type": "gradient",
-                        "gradientType": "linear",
-                        "enabled": true,
-                        "rotation": 265,
-                        "size": {
-                          "height": 1
-                        },
-                        "colors": [
-                          {
-                            "color": "#E36D16",
-                            "position": 0
-                          },
-                          {
-                            "color": "#BC3217",
-                            "position": 1
-                          }
-                        ]
-                      },
-                      "cornerRadius": 10,
-                      "padding": [
-                        12,
-                        40
-                      ],
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "wAn7f",
-                          "name": "contactText",
-                          "fill": "#1e1e1c",
-                          "content": "CONTACT",
-                          "fontFamily": "Kanit",
-                          "fontSize": 18,
-                          "fontWeight": "900",
-                          "fontStyle": "italic"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "Vb5cP",
-              "name": "headline",
-              "layout": "vertical",
-              "justifyContent": "space_around",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "bxlnS",
-                  "name": "stxt",
-                  "fill": "$color_meteor",
-                  "effect": {
-                    "type": "shadow",
-                    "shadowType": "outer",
-                    "color": "#0000008c",
-                    "offset": {
-                      "x": 0,
-                      "y": 2
-                    },
-                    "blur": 2
-                  },
-                  "content": "EXPERT VULCANISING SOLUTIONS",
-                  "fontFamily": "Kanit",
-                  "fontSize": 18,
-                  "fontWeight": "bold",
-                  "letterSpacing": 4
-                },
-                {
-                  "type": "text",
-                  "id": "J7Vd0",
-                  "name": "line1",
-                  "opacity": 0.9,
-                  "fill": "$color-white",
-                  "effect": {
-                    "type": "shadow",
-                    "shadowType": "outer",
-                    "color": "#00000040",
-                    "offset": {
-                      "x": 0,
-                      "y": 4
-                    },
-                    "blur": 4
-                  },
-                  "content": "ANY CONVEYOR\nANY BELT",
-                  "lineHeight": 0.8,
-                  "textAlign": "center",
-                  "fontFamily": "Kanit",
-                  "fontSize": 168,
-                  "fontWeight": "900",
-                  "letterSpacing": -5,
-                  "fontStyle": "italic"
-                },
-                {
-                  "type": "text",
-                  "id": "KPYMV",
-                  "fill": "#000000",
-                  "content": "t",
-                  "fontFamily": "Inter",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "QQfIQ",
-              "name": "footer",
-              "height": 197,
-              "layout": "vertical",
-              "justifyContent": "space_between",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "JaUmF",
-                  "name": "container",
-                  "width": 1077,
-                  "height": 128,
-                  "gap": 48,
-                  "justifyContent": "space_around",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "JwAFL",
-                      "name": "item2",
-                      "width": 300,
-                      "layout": "vertical",
-                      "gap": 10,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon_font",
-                          "id": "gBDtA",
-                          "width": 63,
-                          "height": 70,
-                          "iconFontName": "lightning-thin",
-                          "iconFontFamily": "phosphor",
-                          "fill": "$color_meteor"
-                        },
-                        {
-                          "type": "text",
-                          "id": "2b92H",
-                          "name": "txt2",
-                          "fill": "#ffffff",
-                          "content": "24/7 RAPID RESPONSE",
-                          "textAlign": "center",
-                          "fontFamily": "Kanit",
-                          "fontSize": 20,
-                          "fontWeight": "bold",
-                          "letterSpacing": 1
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "1I7eV",
-                      "name": "item1",
-                      "width": 300,
-                      "layout": "vertical",
-                      "gap": 10,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon_font",
-                          "id": "Qmj2D",
-                          "width": 63,
-                          "height": 70,
-                          "iconFontName": "wrench-thin",
-                          "iconFontFamily": "phosphor",
-                          "fill": "$color_meteor"
-                        },
-                        {
-                          "type": "text",
-                          "id": "ywxCk",
-                          "name": "txt1",
-                          "fill": "#ffffff",
-                          "content": "NATIONWIDE UK COVERAGE",
-                          "textAlign": "center",
-                          "fontFamily": "Kanit",
-                          "fontSize": 20,
-                          "fontWeight": "bold",
-                          "letterSpacing": 1
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "ivbB3",
-                      "name": "item3",
-                      "width": 300,
-                      "layout": "vertical",
-                      "gap": 10,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon_font",
-                          "id": "GXdWW",
-                          "width": 63,
-                          "height": 70,
-                          "iconFontName": "medal-thin",
-                          "iconFontFamily": "phosphor",
-                          "fill": "$color_meteor"
-                        },
-                        {
-                          "type": "text",
-                          "id": "J0Sn2",
-                          "name": "txt3",
-                          "fill": "#ffffff",
-                          "content": "45+ YEARS EXPERIENCE",
-                          "textAlign": "center",
-                          "fontFamily": "Kanit",
-                          "fontSize": 20,
-                          "fontWeight": "bold",
-                          "letterSpacing": 1
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "ym05B",
-                  "name": "scrollInd",
-                  "width": 180,
-                  "layout": "vertical",
-                  "gap": 16,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "6WL3R",
-                      "name": "stxt",
-                      "opacity": 0.6,
-                      "fill": "#ffffff",
-                      "content": "SCROLL TO EXPLORE",
-                      "fontFamily": "Kanit",
-                      "fontSize": 12,
-                      "fontWeight": "bold",
-                      "letterSpacing": 2
-                    },
-                    {
-                      "type": "icon_font",
-                      "id": "zwnr6",
-                      "name": "sicon",
-                      "opacity": 0.8,
-                      "width": 0,
-                      "height": 0,
-                      "iconFontFamily": "Material Symbols Rounded"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
           "id": "q9hwr",
           "name": "Services Section",
           "width": 1920,
@@ -2297,6 +1914,389 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "pZ0vL",
+          "name": "HERO",
+          "metadata": {
+            "type": "unsplash",
+            "username": "nypl",
+            "link": "https://unsplash.com/@nypl",
+            "author": "The New York Public Library"
+          },
+          "clip": true,
+          "width": 1920,
+          "height": 1075,
+          "fill": [
+            {
+              "type": "image",
+              "enabled": true,
+              "url": "../images/nev-assets/Gemini_Generated_Image_3b67613b67613b67.png",
+              "mode": "fill"
+            },
+            "#000000b3",
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": false,
+              "opacity": 0.6,
+              "rotation": 180,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#000000",
+                  "position": 0
+                },
+                {
+                  "color": "#00000000",
+                  "position": 0.4
+                }
+              ]
+            }
+          ],
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            40,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Dencl",
+              "name": "header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "l9Ufq",
+                  "name": "logoImg",
+                  "width": 312,
+                  "height": 52,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../images/nev-assets/logo.png",
+                    "mode": "fit"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "Rgqcj",
+                  "name": "nav",
+                  "width": "fill_container",
+                  "gap": 50,
+                  "justifyContent": "end",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Gn364",
+                      "fill": "#FFFFFF",
+                      "content": "SERVICES",
+                      "fontFamily": "Kanit",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ISH0P",
+                      "fill": "#FFFFFF",
+                      "content": "INDUSTRIES",
+                      "fontFamily": "Kanit",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NocMg",
+                      "fill": "#FFFFFF",
+                      "content": "PRODUCTS",
+                      "fontFamily": "Kanit",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "te37i",
+                      "fill": "#FFFFFF",
+                      "content": "ABOUT",
+                      "fontFamily": "Kanit",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tSRtK",
+                      "name": "roleSwatch2",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 265,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#E36D16",
+                            "position": 0
+                          },
+                          {
+                            "color": "#BC3217",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "padding": [
+                        12,
+                        40
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wnXWi",
+                          "name": "contactText",
+                          "fill": "#1e1e1c",
+                          "content": "CONTACT",
+                          "fontFamily": "Kanit",
+                          "fontSize": 18,
+                          "fontWeight": "900",
+                          "fontStyle": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LcRqf",
+              "name": "headline",
+              "layout": "vertical",
+              "justifyContent": "space_around",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RuhDY",
+                  "name": "stxt",
+                  "fill": "$color_meteor",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000008c",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "content": "EXPERT VULCANISING SOLUTIONS",
+                  "fontFamily": "Kanit",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "iMNzM",
+                  "name": "line1",
+                  "opacity": 0.9,
+                  "fill": "$color-white",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000040",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 4
+                  },
+                  "content": "ANY CONVEYOR\nANY BELT",
+                  "lineHeight": 0.8,
+                  "textAlign": "center",
+                  "fontFamily": "Kanit",
+                  "fontSize": 168,
+                  "fontWeight": "900",
+                  "letterSpacing": -5,
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "Ljuav",
+                  "fill": "#000000",
+                  "content": "t",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fY6kN",
+              "name": "footer",
+              "height": 197,
+              "layout": "vertical",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PgAcp",
+                  "name": "container",
+                  "width": 1077,
+                  "height": 128,
+                  "gap": 48,
+                  "justifyContent": "space_around",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ckkIS",
+                      "name": "item2",
+                      "width": 300,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "TgeCd",
+                          "width": 63,
+                          "height": 70,
+                          "iconFontName": "lightning-thin",
+                          "iconFontFamily": "phosphor",
+                          "fill": "$color_meteor"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DBzes",
+                          "name": "txt2",
+                          "fill": "#ffffff",
+                          "content": "24/7 RAPID RESPONSE",
+                          "textAlign": "center",
+                          "fontFamily": "Kanit",
+                          "fontSize": 20,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XKAXi",
+                      "name": "item1",
+                      "width": 300,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "VRrVl",
+                          "width": 63,
+                          "height": 70,
+                          "iconFontName": "wrench-thin",
+                          "iconFontFamily": "phosphor",
+                          "fill": "$color_meteor"
+                        },
+                        {
+                          "type": "text",
+                          "id": "iPlJk",
+                          "name": "txt1",
+                          "fill": "#ffffff",
+                          "content": "NATIONWIDE UK COVERAGE",
+                          "textAlign": "center",
+                          "fontFamily": "Kanit",
+                          "fontSize": 20,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R25lo",
+                      "name": "item3",
+                      "width": 300,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "fNzbR",
+                          "width": 63,
+                          "height": 70,
+                          "iconFontName": "medal-thin",
+                          "iconFontFamily": "phosphor",
+                          "fill": "$color_meteor"
+                        },
+                        {
+                          "type": "text",
+                          "id": "N0ePx",
+                          "name": "txt3",
+                          "fill": "#ffffff",
+                          "content": "45+ YEARS EXPERIENCE",
+                          "textAlign": "center",
+                          "fontFamily": "Kanit",
+                          "fontSize": 20,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VbgUX",
+                  "name": "scrollInd",
+                  "width": 180,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Oxrt1",
+                      "name": "stxt",
+                      "opacity": 0.6,
+                      "fill": "#ffffff",
+                      "content": "SCROLL TO EXPLORE",
+                      "fontFamily": "Kanit",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "yx7XS",
+                      "name": "sicon",
+                      "opacity": 0.8,
+                      "width": 0,
+                      "height": 0,
+                      "iconFontFamily": "Material Symbols Rounded"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3188,7 +3188,7 @@
               "url": "../images/nev-assets/Gemini_Generated_Image_3b67613b67613b67.png",
               "mode": "fill"
             },
-            "#000000b3",
+            "#00000066",
             {
               "type": "gradient",
               "gradientType": "linear",
@@ -3345,7 +3345,7 @@
                   "type": "text",
                   "id": "B4II0",
                   "name": "stxt",
-                  "fill": "$color_meteor",
+                  "fill": "#9d9d9dff",
                   "effect": {
                     "type": "shadow",
                     "shadowType": "outer",
@@ -3363,29 +3363,38 @@
                   "letterSpacing": 4
                 },
                 {
-                  "type": "text",
-                  "id": "uVaSK",
-                  "name": "line1",
-                  "opacity": 0.9,
-                  "fill": "$color-white",
-                  "effect": {
-                    "type": "shadow",
-                    "shadowType": "outer",
-                    "color": "#00000040",
-                    "offset": {
-                      "x": 0,
-                      "y": 4
+                  "type": "frame",
+                  "id": "QONMU",
+                  "name": "heroTitle",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "v8Ow3",
+                      "name": "ht1",
+                      "fill": "$color-white",
+                      "content": "ANY CONVEYOR.",
+                      "lineHeight": 0.8,
+                      "fontFamily": "Kanit",
+                      "fontSize": 168,
+                      "fontWeight": "900",
+                      "fontStyle": "italic"
                     },
-                    "blur": 4
-                  },
-                  "content": "ANY CONVEYOR\nANY BELT",
-                  "lineHeight": 0.8,
-                  "textAlign": "center",
-                  "fontFamily": "Kanit",
-                  "fontSize": 168,
-                  "fontWeight": "900",
-                  "letterSpacing": -5,
-                  "fontStyle": "italic"
+                    {
+                      "type": "text",
+                      "id": "Lf4iL",
+                      "name": "ht2",
+                      "fill": "#E36D16",
+                      "content": "ANY BELT.",
+                      "lineHeight": 0.8,
+                      "fontFamily": "Kanit",
+                      "fontSize": 168,
+                      "fontWeight": "900",
+                      "fontStyle": "italic"
+                    }
+                  ]
                 }
               ]
             },
@@ -5435,6 +5444,378 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qaN8M",
+      "x": 4697,
+      "y": 272.11496034632506,
+      "name": "IPHONE1",
+      "rotation": 0.017564647357222504,
+      "metadata": {
+        "type": "unsplash",
+        "username": "nypl",
+        "link": "https://unsplash.com/@nypl",
+        "author": "The New York Public Library"
+      },
+      "clip": true,
+      "width": 375,
+      "height": 815,
+      "fill": [
+        {
+          "type": "image",
+          "enabled": true,
+          "url": "../images/nev-assets/Gemini_Generated_Image_3b67613b67613b67.png",
+          "mode": "fill"
+        },
+        "#00000099",
+        {
+          "type": "gradient",
+          "gradientType": "linear",
+          "enabled": true,
+          "opacity": 0.6,
+          "rotation": 180,
+          "size": {
+            "height": 1
+          },
+          "colors": [
+            {
+              "color": "#000000",
+              "position": 0
+            },
+            {
+              "color": "#00000000",
+              "position": 0.4
+            }
+          ]
+        }
+      ],
+      "layout": "vertical",
+      "gap": 60,
+      "padding": [
+        40,
+        24,
+        20,
+        24
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Y8fib",
+          "name": "header",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HoSS3",
+              "name": "logoImg",
+              "width": 212,
+              "height": 52,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "../images/nev-assets/logo.png",
+                "mode": "fit"
+              }
+            },
+            {
+              "type": "icon_font",
+              "id": "lwfbE",
+              "rotation": -0.017564647357222504,
+              "width": 30,
+              "height": 30,
+              "iconFontName": "list-bold",
+              "iconFontFamily": "phosphor",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": -90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "$color_meteor",
+                    "position": 0.02
+                  },
+                  {
+                    "color": "$color_thunderbird",
+                    "position": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Vb5cP",
+          "name": "headline",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "bxlnS",
+              "name": "stxt",
+              "opacity": 0.7,
+              "fill": "$color_nobel",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000008c",
+                "offset": {
+                  "x": 0,
+                  "y": 2
+                },
+                "blur": 2
+              },
+              "content": "EXPERT VULCANISING SOLUTIONS",
+              "textAlign": "center",
+              "fontFamily": "Kanit",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "J7Vd0",
+              "name": "line1",
+              "opacity": 0.9,
+              "fill": "$color-white",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000040",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 4
+              },
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ANY CONVEYOR",
+              "lineHeight": 0.8,
+              "textAlign": "center",
+              "fontFamily": "Kanit",
+              "fontSize": 43,
+              "fontWeight": "900",
+              "letterSpacing": -1,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "uG52l",
+              "name": "line1",
+              "opacity": 0.9,
+              "fill": "$color_meteor",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000040",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 4
+              },
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ANY BELT",
+              "lineHeight": 0.8,
+              "textAlign": "center",
+              "fontFamily": "Kanit",
+              "fontSize": 43,
+              "fontWeight": "900",
+              "letterSpacing": -1,
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QQfIQ",
+          "name": "footer",
+          "width": "fill_container",
+          "height": 279,
+          "layout": "vertical",
+          "gap": 50,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JaUmF",
+              "name": "container",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JwAFL",
+                  "name": "item2",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 5,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "gBDtA",
+                      "width": 30,
+                      "height": 30,
+                      "iconFontName": "lightning",
+                      "iconFontFamily": "phosphor",
+                      "fill": "$color_meteor"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2b92H",
+                      "name": "txt2",
+                      "fill": "#ffffff",
+                      "textGrowth": "fixed-width",
+                      "width": 223,
+                      "content": "24/7 RAPID RESPONSE",
+                      "textAlign": "center",
+                      "fontFamily": "Kanit",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1I7eV",
+                  "name": "item1",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 5,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Qmj2D",
+                      "width": 30,
+                      "height": 30,
+                      "iconFontName": "wrench",
+                      "iconFontFamily": "phosphor",
+                      "fill": "$color_meteor"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ywxCk",
+                      "name": "txt1",
+                      "fill": "#ffffff",
+                      "content": "NATIONWIDE UK COVERAGE",
+                      "textAlign": "center",
+                      "fontFamily": "Kanit",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ivbB3",
+                  "name": "item3",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 5,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "GXdWW",
+                      "width": 30,
+                      "height": 30,
+                      "iconFontName": "medal",
+                      "iconFontFamily": "phosphor",
+                      "fill": "$color_meteor"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J0Sn2",
+                      "name": "txt3",
+                      "fill": "#ffffff",
+                      "content": "DECADES OF INDUSTRY EXPERIENCE",
+                      "textAlign": "center",
+                      "fontFamily": "Kanit",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "6WL3R",
+              "name": "stxt",
+              "opacity": 0.6,
+              "fill": "#ffffff",
+              "content": "SCROLL TO EXPLORE",
+              "fontFamily": "Kanit",
+              "fontSize": 9,
+              "fontWeight": "bold",
+              "letterSpacing": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "nlKjt",
+      "x": 5320,
+      "y": 302.01072963232366,
+      "name": "roleSwatch2",
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 265,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#E36D16",
+            "position": 0
+          },
+          {
+            "color": "#BC3217",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 10,
+      "padding": 5,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "Utd2l",
+          "width": 25,
+          "height": 25,
+          "iconFontName": "list-bold",
+          "iconFontFamily": "phosphor",
+          "fill": "$color_heavy_metal"
         }
       ]
     }

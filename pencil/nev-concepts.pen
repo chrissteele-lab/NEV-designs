@@ -14,7 +14,7 @@
         "author": "The New York Public Library"
       },
       "clip": true,
-      "width": 1600,
+      "width": "fill_container(1600)",
       "height": 946,
       "fill": [
         {
@@ -130,7 +130,7 @@
           "type": "frame",
           "id": "dCGCp",
           "x": 100,
-          "y": 453,
+          "y": 413,
           "name": "heroContent",
           "width": 1400,
           "height": 393,
@@ -188,7 +188,7 @@
                   "type": "text",
                   "id": "yVO8a",
                   "fill": "$color-white",
-                  "content": "LEARN MORE",
+                  "content": "CONTACT US",
                   "fontFamily": "Kanit",
                   "fontSize": 20,
                   "fontWeight": "900",
@@ -579,7 +579,7 @@
     {
       "type": "frame",
       "id": "n4OFK",
-      "x": -158,
+      "x": -159,
       "y": 893,
       "name": "concept 3",
       "metadata": {

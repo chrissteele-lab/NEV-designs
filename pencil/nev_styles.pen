@@ -1046,20 +1046,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "frame",
-          "id": "0YLZ3",
-          "name": "Palette",
-          "width": 819,
-          "height": 371,
-          "fill": {
-            "type": "image",
-            "enabled": true,
-            "url": "../images/nev-assets/pallette.png",
-            "mode": "fill"
-          },
-          "layout": "none"
         }
       ]
     },
@@ -3136,6 +3122,22 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "0YLZ3",
+      "x": 3910,
+      "y": 3047,
+      "name": "Palette",
+      "width": 819,
+      "height": 371,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "../images/nev-assets/pallette.png",
+        "mode": "fill"
+      },
+      "layout": "none"
     }
   ],
   "themes": {
